@@ -1,0 +1,111 @@
+perhatikan posisi drive dan foldernya sebelum jalankan kodingan. 
+
+dotnet new sln => dimn posisinya 
+
+cd post.cmd
+
+dotnet new webapi -o Post.Cmd.Api => create new web api 
+
+dotnet sln add Post.Cmd/post.cmd.api/post.cmd.api.csproj     => add project ke dlm solution 
+
+dotnet add post.cmd/post.cmd.api/post.cmd.api.csproj reference ../CQRS-ES/CQRS.Core/CQRS.core.csproj => add reference project
+
+dotnet add post.cmd/post.cmd.domain/post.cmd.domain.csproj reference ../CQRS-ES/CQRS.Core/CQRS.core.csproj => add reference project      
+
+dotnet add post.cmd/post.cmd.domain/post.cmd.domain.csproj reference POst.common/post.common.csproj => add reference project    
+
+dotnet add post.cmd/post.cmd.infrastructure/post.cmd.infrastructure.csproj reference ../cqrs-es/cqrs.core/cqrs.core.csproj
+
+dotnet add post.cmd/post.cmd.infrastructure/post.cmd.infrastructure.csproj reference post.cmd/post.cmd.domain/post.cmd.domain.csproj
+
+dotnet add post.common/post.common.csproj reference ../cqrs-es/cqrs.core/cqrs.core.csproj
+
+dotnet add post.query/post.query.api/post.query.api.csproj reference ../cqrs-es/cqrs.core/cqrs.core.csproj
+
+
+dotnet add post.query/post.query.api/post.query.api.csproj reference post.query/post.query.domain/post.query.domain.csproj
+
+dotnet add post.query/post.query.api/post.query.api.csproj reference post.query/post.query.infrastructure/post.query.infrastructure.csproj
+
+dotnet add post.query/post.query.domain/post.query.domain.csproj reference ../cqrs-es/cqrs.core/cqrs.core.csproj
+
+dotnet add post.query/post.query.domain/post.query.domain.csproj reference  POst.common/post.common.csproj
+
+dotnet add post.query/post.query.infrastructure/post.query.infrastructure.csproj reference ../cqrs-es/cqrs.core/cqrs.core.csproj
+
+dotnet add post.query/post.query.infrastructure/post.query.infrastructure.csproj reference post.cmd/post.cmd.domain/post.cmd.domain.csproj
+
+sekrg add nuget package
+
+setelah itu mau add fungsi debug melalui vscode. 
+ctrl + shift + p +. pilih generate asset for build and debug.
+akan muncul folder .vscode dgn isinya launch.json dan tasks.json
+
+ganti isinya spt ini dibwh 
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": "Post.Cmd.Api",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/SM-POST/Post.Cmd/post.cmd.api/bin/Debug/net6.0/post.cmd.api.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/SM-POST/Post.Cmd/post.cmd.api",
+            "stopAtEntry": false,
+            // Enable launching a web browser when ASP.NET Core starts. For more information: https://aka.ms/VSCode-CS-LaunchJson-WebBrowser
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "ASPNETCORE_URLS":"http://localhost:5010"
+
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": "Post.Query.Api",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/SM-POST/Post.Query/post.Query.api/bin/Debug/net6.0/post.Query.api.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/SM-POST/Post.Query/post.Query.api",
+            "stopAtEntry": false,
+            // Enable launching a web browser when ASP.NET Core starts. For more information: https://aka.ms/VSCode-CS-LaunchJson-WebBrowser
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "ASPNETCORE_URLS":"http://localhost:5011"
+
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}
+
+

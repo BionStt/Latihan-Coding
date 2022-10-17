@@ -1,0 +1,17 @@
+C:\data software 2022\Github 2022\Udemy net core cqrs apache Kafka\Latihan Coding\SM-POST\post.query\post.query.domain\bin\Debug\net6.0\post.query.domain.deps.json
+C:\data software 2022\Github 2022\Udemy net core cqrs apache Kafka\Latihan Coding\SM-POST\post.query\post.query.domain\bin\Debug\net6.0\post.query.domain.dll
+C:\data software 2022\Github 2022\Udemy net core cqrs apache Kafka\Latihan Coding\SM-POST\post.query\post.query.domain\bin\Debug\net6.0\post.query.domain.pdb
+C:\data software 2022\Github 2022\Udemy net core cqrs apache Kafka\Latihan Coding\SM-POST\post.query\post.query.domain\bin\Debug\net6.0\CQRS.core.dll
+C:\data software 2022\Github 2022\Udemy net core cqrs apache Kafka\Latihan Coding\SM-POST\post.query\post.query.domain\bin\Debug\net6.0\post.common.dll
+C:\data software 2022\Github 2022\Udemy net core cqrs apache Kafka\Latihan Coding\SM-POST\post.query\post.query.domain\bin\Debug\net6.0\CQRS.core.pdb
+C:\data software 2022\Github 2022\Udemy net core cqrs apache Kafka\Latihan Coding\SM-POST\post.query\post.query.domain\bin\Debug\net6.0\post.common.pdb
+C:\data software 2022\Github 2022\Udemy net core cqrs apache Kafka\Latihan Coding\SM-POST\post.query\post.query.domain\obj\Debug\net6.0\post.query.domain.csproj.AssemblyReference.cache
+C:\data software 2022\Github 2022\Udemy net core cqrs apache Kafka\Latihan Coding\SM-POST\post.query\post.query.domain\obj\Debug\net6.0\post.query.domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\data software 2022\Github 2022\Udemy net core cqrs apache Kafka\Latihan Coding\SM-POST\post.query\post.query.domain\obj\Debug\net6.0\post.query.domain.AssemblyInfoInputs.cache
+C:\data software 2022\Github 2022\Udemy net core cqrs apache Kafka\Latihan Coding\SM-POST\post.query\post.query.domain\obj\Debug\net6.0\post.query.domain.AssemblyInfo.cs
+C:\data software 2022\Github 2022\Udemy net core cqrs apache Kafka\Latihan Coding\SM-POST\post.query\post.query.domain\obj\Debug\net6.0\post.query.domain.csproj.CoreCompileInputs.cache
+C:\data software 2022\Github 2022\Udemy net core cqrs apache Kafka\Latihan Coding\SM-POST\post.query\post.query.domain\obj\Debug\net6.0\post.query.domain.csproj.CopyComplete
+C:\data software 2022\Github 2022\Udemy net core cqrs apache Kafka\Latihan Coding\SM-POST\post.query\post.query.domain\obj\Debug\net6.0\post.query.domain.dll
+C:\data software 2022\Github 2022\Udemy net core cqrs apache Kafka\Latihan Coding\SM-POST\post.query\post.query.domain\obj\Debug\net6.0\refint\post.query.domain.dll
+C:\data software 2022\Github 2022\Udemy net core cqrs apache Kafka\Latihan Coding\SM-POST\post.query\post.query.domain\obj\Debug\net6.0\post.query.domain.pdb
+C:\data software 2022\Github 2022\Udemy net core cqrs apache Kafka\Latihan Coding\SM-POST\post.query\post.query.domain\obj\Debug\net6.0\ref\post.query.domain.dll
