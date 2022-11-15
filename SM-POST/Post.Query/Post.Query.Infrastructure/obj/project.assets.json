@@ -8505,6 +8505,7 @@
   "packageFolders": {
     "C:\\Users\\Sutanto\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\20.3.0.47\\ToolboxNuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -8518,12 +8519,14 @@
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\20.3.0.47\\ToolboxNuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\Sutanto\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -8537,11 +8540,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\CQRS-ES\\CQRS.core\\CQRS.core.csproj": {
-              "projectPath": "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\CQRS-ES\\CQRS.core\\CQRS.core.csproj"
+            "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj": {
+              "projectPath": "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj"
             },
-            "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\SM-POST\\post.query\\post.query.domain\\post.query.domain.csproj": {
-              "projectPath": "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\SM-POST\\post.query\\post.query.domain\\post.query.domain.csproj"
+            "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\SM-POST\\post.query\\Post.Query.Domain\\Post.Query.Domain.csproj": {
+              "projectPath": "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\SM-POST\\post.query\\Post.Query.Domain\\Post.Query.Domain.csproj"
             }
           }
         }
@@ -8589,7 +8592,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

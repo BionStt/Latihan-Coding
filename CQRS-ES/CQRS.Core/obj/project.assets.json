@@ -1019,25 +1019,28 @@
   "packageFolders": {
     "C:\\Users\\Sutanto\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\20.3.0.47\\ToolboxNuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj",
-      "projectName": "CQRS.Core",
-      "projectPath": "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj",
+      "projectUniqueName": "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\CQRS-ES\\CQRS.core\\CQRS.core.csproj",
+      "projectName": "CQRS.core",
+      "projectPath": "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\CQRS-ES\\CQRS.core\\CQRS.core.csproj",
       "packagesPath": "C:\\Users\\Sutanto\\.nuget\\packages\\",
-      "outputPath": "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\CQRS-ES\\CQRS.Core\\obj\\",
+      "outputPath": "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\CQRS-ES\\CQRS.core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\20.3.0.47\\ToolboxNuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\Sutanto\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -1092,7 +1095,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

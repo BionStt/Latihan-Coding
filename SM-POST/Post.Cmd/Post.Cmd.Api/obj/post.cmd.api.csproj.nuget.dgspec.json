@@ -15,12 +15,14 @@
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\20.3.0.47\\ToolboxNuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Sutanto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -75,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -90,12 +92,14 @@
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\20.3.0.47\\ToolboxNuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Sutanto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -109,17 +113,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\CQRS-ES\\CQRS.core\\CQRS.core.csproj": {
-                "projectPath": "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\CQRS-ES\\CQRS.core\\CQRS.core.csproj"
+              "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj": {
+                "projectPath": "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj"
               },
-              "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\SM-POST\\post.cmd\\post.cmd.domain\\post.cmd.domain.csproj": {
-                "projectPath": "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\SM-POST\\post.cmd\\post.cmd.domain\\post.cmd.domain.csproj"
+              "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\SM-POST\\Post.Cmd\\Post.Cmd.Domain\\Post.Cmd.Domain.csproj": {
+                "projectPath": "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\SM-POST\\Post.Cmd\\Post.Cmd.Domain\\Post.Cmd.Domain.csproj"
               },
-              "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\SM-POST\\post.cmd\\post.cmd.infrastructure\\post.cmd.infrastructure.csproj": {
-                "projectPath": "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\SM-POST\\post.cmd\\post.cmd.infrastructure\\post.cmd.infrastructure.csproj"
+              "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\SM-POST\\Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj": {
+                "projectPath": "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\SM-POST\\Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj"
               },
-              "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\SM-POST\\POst.common\\post.common.csproj": {
-                "projectPath": "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\SM-POST\\POst.common\\post.common.csproj"
+              "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\SM-POST\\Post.Common\\Post.Common.csproj": {
+                "projectPath": "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\SM-POST\\Post.Common\\Post.Common.csproj"
               }
             }
           }
@@ -158,7 +162,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -173,12 +177,14 @@
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\20.3.0.47\\ToolboxNuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Sutanto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -192,8 +198,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\CQRS-ES\\CQRS.core\\CQRS.core.csproj": {
-                "projectPath": "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\CQRS-ES\\CQRS.core\\CQRS.core.csproj"
+              "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\CQRS-ES\\CQRS.Core\\CQRS.core.csproj": {
+                "projectPath": "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\CQRS-ES\\CQRS.Core\\CQRS.core.csproj"
               },
               "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\SM-POST\\POst.common\\post.common.csproj": {
                 "projectPath": "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\SM-POST\\POst.common\\post.common.csproj"
@@ -226,7 +232,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -241,12 +247,14 @@
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\20.3.0.47\\ToolboxNuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Sutanto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -260,8 +268,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\CQRS-ES\\CQRS.core\\CQRS.core.csproj": {
-                "projectPath": "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\CQRS-ES\\CQRS.core\\CQRS.core.csproj"
+              "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\cqrs-es\\cqrs.core\\cqrs.core.csproj": {
+                "projectPath": "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\cqrs-es\\cqrs.core\\cqrs.core.csproj"
               },
               "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\SM-POST\\post.cmd\\post.cmd.domain\\post.cmd.domain.csproj": {
                 "projectPath": "C:\\data software 2022\\Github 2022\\Udemy net core cqrs apache Kafka\\Latihan Coding\\SM-POST\\post.cmd\\post.cmd.domain\\post.cmd.domain.csproj"
@@ -308,7 +316,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
